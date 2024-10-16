@@ -28,8 +28,12 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 8px;
+  transition: transform 0.3s;
 }
- 
+
+.overall-video:hover {
+  transform: scale(1.03);
+
 .bottom {
   display: grid;
   grid-template-columns: 50px 1fr;
